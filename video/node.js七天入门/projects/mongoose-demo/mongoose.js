@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('video/node.js七天入门/projects/mongoose-demo/mongoose');
 //mongoose连接mongoDB
 mongoose.connect('mongodb://122.51.65.109:27017/test', {useNewUrlParser: true, useUnifiedTopology: true});
 

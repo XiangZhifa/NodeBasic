@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('video/node.js七天入门/projects/mongoose-demo/mongoose');
 //1.连接数据库
 //连接的数据库不一定需要存在，当你插入第一条数据之后，数据库会被自动创建
 mongoose.connect('mongodb://122.51.65.109:27017/test', {useNewUrlParser: true, useUnifiedTopology: true});
